@@ -1,3 +1,0 @@
-# PersonalWebsite
-
-By: Josh Vincent
