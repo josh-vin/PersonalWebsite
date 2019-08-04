@@ -1,9 +1,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "@/views/Home.vue";
-import About from "@/views/About.vue";
+import Resume from "@/views/Resume.vue";
 import Contact from "@/views/Contact.vue";
-import Project from "@/views/Project.vue";
 
 Vue.use(VueRouter);
 
@@ -17,19 +16,14 @@ export default new VueRouter({
       component: Home
     },
     {
-      path: "/about",
-      name: "about",
-      component: About
+      path: "/resume",
+      name: "resume",
+      component: Resume
     },
     {
       path: "/contact",
       name: "contact",
       component: Contact
-    },
-    {
-      path: "/project/:slug",
-      name: "project",
-      component: Project
     }
   ]
 });

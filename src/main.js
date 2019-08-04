@@ -16,5 +16,8 @@ new Vue({
 
 Vue.use(VueAnalytics, {
   id: 'UA-145116461-1',
+  autoTracking: {
+    screenview: true
+  },
   router
 })
