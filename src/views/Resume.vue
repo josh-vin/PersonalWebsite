@@ -32,6 +32,20 @@
         </div>
     </div>
     </section>
+    <section class = "hero">
+        <div class = "hero-body">
+            <div class = "container is-centered has-text-centered content">
+                <h1 class = "title">
+                    Skills
+                </h1>
+                <div class = "columns is-multiline is-tablet">
+                    <div v-for="skill in skills" v-bind:key="skill" class = "column is-3"> 
+                        <p class = "notification is-rounded is-dark"> {{skill}} </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class = "hero is-primary is-small">
         <div class = "hero-body">
             <div class = "container">
@@ -107,6 +121,20 @@ export default {
                     'Documented approvals and changes in compensation plans and code to pass SOX compliance.'
                 ]
             }
+        ],
+        skills: [
+                'Python'
+                ,'SQL'
+                ,'Windows'
+                ,'JavaScript'
+                ,'Docker'
+                ,'C++'
+                ,'PHP'
+                ,'Linux'
+                ,'Salesforce'
+                ,'Vue.js'
+                ,'HTML'
+                ,'Five9'                
         ]}
     }
 };
