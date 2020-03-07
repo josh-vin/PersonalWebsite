@@ -449,6 +449,9 @@ section.resume-section .resume-item .resume-date {
     padding-bottom: 3rem !important;
   }
 }
+.devicons {
+  color: #000;
+}
 .bg-primary {
   background-color: #007bff  !important;
 }
