@@ -343,14 +343,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', serif;
+  font-family: "Segoe UI", "Noto Sans JP", serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
 }
 h1 {
-  font-size: 6rem;
-  line-height: 5.5rem;
+  font-size: 2.5rem;
+  line-height: 1.2;
 }
 h2 {
   font-size: 3.5rem;
@@ -380,6 +380,7 @@ h2 {
   color: rgb(56, 125, 189);
 }
 #sideNav .navbar-nav .nav-item .nav-link {
+  font-family: "Segoe UI", "Noto Sans JP", serif;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -446,13 +447,13 @@ section.resume-section .resume-item .resume-date {
   }
 }
 .bg-primary {
-  background-color: rgb(56, 148, 220) !important;
+  background-color: #007bff  !important;
 }
 .text-primary {
-  color: rgb(56, 148, 220) !important;
+  color: #007bff  !important;
 }
 a {
-  color: rgb(56, 125, 189);
+  color: #007bff ;
 }
 a:hover, a:focus, a:active {
   color: #274b82;
