@@ -327,7 +327,7 @@ export default {
 
 <style>
 body {
-  font-family: 'Roboto', serif;
+  font-family: "Segoe UI", "Noto Sans JP", serif;
   padding-top: 54px;
   color: #868e96;
 }
