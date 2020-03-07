@@ -327,7 +327,7 @@ export default {
 
 <style>
 body {
-  font-family: 'Segoe UI', serif;
+  font-family: 'Roboto', serif;
   padding-top: 54px;
   color: #868e96;
 }
@@ -343,7 +343,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Segoe UI', serif;
+  font-family: 'Roboto', serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
@@ -431,7 +431,7 @@ section.resume-section {
 section.resume-section .resume-item .resume-date {
   min-width: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 300px) {
   section.resume-section {
     min-height: 100vh;
   }
