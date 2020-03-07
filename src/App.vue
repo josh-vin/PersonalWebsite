@@ -120,14 +120,14 @@
 
           <div class="subheading mb-3">{{ prolang[Locale] }}</div>
           <ul class="list-inline list-icons">
-            <li class="list-inline-item" title="C#">
-              <i class="devicons devicons-csharp"></i>
-            </li>
-            <li class="list-inline-item" title="C++">
-              <i class="devicons devicons-cplusplus"></i>
+            <li class="list-inline-item" title="C#/.net">
+              <i class="devicons devicons-dotnet"></i>
             </li>
             <li class="list-inline-item" title="Python">
               <i class="devicons devicons-python"></i>
+            </li>
+            <li class="list-inline-item" title="Rust">
+              <i class="devicons devicons-rust"></i>
             </li>
             <li class="list-inline-item" title="Java">
               <i class="devicons devicons-java"></i>
@@ -175,7 +175,7 @@
               <i class="devicons devicons-visualstudio"></i>
             </li>  
             <li class="list-inline-item" title="Windows">
-              <i class="devicons devicons-windows8"></i>
+              <i class="devicons devicons-windows"></i>
             </li>  
             <li class="list-inline-item" title="Linux">
               <i class="devicons devicons-linux"></i>
