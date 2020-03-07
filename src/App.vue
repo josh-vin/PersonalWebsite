@@ -2,9 +2,12 @@
   <div class="main-wrapper">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#about">
-        <span class="d-block d-lg-none">Josh Vincent</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="./assets/avatar.jpg" alt="">
+          <img class="img-fluid img-profile mx-auto mb-2" src="./assets/avatar.jpg" alt="">
+        </span>
+        <span class="d-block d-lg-none"> 
+          <img class="img-fluid img-profile rounded-circle mx-auto" src="./assets/avatar.jpg" alt="" width="50px"> 
+          Josh Vincent
         </span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -344,7 +347,7 @@ h4,
 h5,
 h6 {
   font-family: "Segoe UI", "Noto Sans JP", serif;
-  font-weight: 700;
+  font-weight: 600 !important;
   text-transform: uppercase;
   color: #343a40;
 }
