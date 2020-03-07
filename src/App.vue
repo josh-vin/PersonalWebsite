@@ -234,7 +234,7 @@ export default {
         en: 'Playing board games is another activity that I love to do! Games like Settler\'s of Catan, Ticket to Ride, One Night Werewolf, & Secret Hitler are some of my favorite right now. Games that make you strategize and think are the games that I excel at. There are some games that seem to be all based on luck and I can\'t stand that!',
       },
       interests3: {
-        en: 'I love learning new things! Any other free time I get I use to study new topics and teach myself new things. A lot of my initial programming knowledge came from me teaching myself at home. Figuring out how things work and manipulating things to do what I want are fun passtimes for me.',
+        en: 'I love learning new things! Any other free time I get I use to study new topics and teach myself new things. A lot of my initial programming knowledge came from me teaching myself at home. Figuring out how things work and manipulating things to do what I want are fun pastimes for me.',
       },
       prolang: {
         en: 'Programming Languages & Tools',
@@ -251,7 +251,7 @@ export default {
         en: {
           title: 'Pleasant Grove High',
           subtitle: 'Pleasant Grove, UT',
-          subject: 'Honor role with 45 college credits at graduation',
+          subject: 'Honor roll with 45 college credits at graduation',
           fromto: 'May 2013'
         },
       },
