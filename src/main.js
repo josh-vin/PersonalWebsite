@@ -12,6 +12,7 @@ Vue.prototype.jquery = jquery
 Vue.config.productionTip = false
 
 require('bootstrap')
+require('jquery.easing')
 require('bootstrap/dist/css/bootstrap.css')
 require('devicons/css/devicons.css')
 require('font-awesome/css/font-awesome.css')
